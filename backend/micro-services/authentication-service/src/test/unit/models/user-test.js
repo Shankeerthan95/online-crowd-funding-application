@@ -29,6 +29,7 @@ describe("#User (model) persity user object in DB", function() {
           return done(err);
         }
 
+        
         UserMock.verify();
         UserMock.restore();
 

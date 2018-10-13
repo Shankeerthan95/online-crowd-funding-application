@@ -70,9 +70,12 @@ let createUser = (user) => {
  * @param {*} user_name
  * @returns user 
  */
-let findByUserName = (user_name) => {
+async function  findByUserName(user_name)
+{
+    const users = await User.find({user_name: user_name});
+   
 
-    return User.find({user_name: user_name});
+    return users;
 }
 
 /**
@@ -80,17 +83,23 @@ let findByUserName = (user_name) => {
  * @param {*} email
  * @returns user 
  */
-let findByEmail = (email) => {
-    return User.find({email: email});
+async function findByEmail(email) {
+
+    const users = await User.find({email: email});
+
+    return users;
 }
+
 
 /**
  * 
  * @param {*} mobile_num 
  * @returns user
  */
-let findByMobileNum = (mobile_num) => {
-    return User.find({mobile_num: mobile_num});
+async function findByMobileNum( mobile_num) {
+    const users = await User.find({mobile_num: mobile_num});
+
+    return users;
 }
 
 /**
@@ -129,6 +138,9 @@ let isMobileNumExists = (mobile_num) => {
 
 module.exports = {
     createUser: createUser,
+    findByEmail: findByEmail,
+    findByMobileNum: findByMobileNum,
+    findByUserName: findByUserName
 };
 
 
