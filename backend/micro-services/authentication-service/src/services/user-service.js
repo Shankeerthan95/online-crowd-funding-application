@@ -107,8 +107,9 @@ async function findByMobileNum( mobile_num) {
  * @param {*} user_name 
  * @returns Boolean
  */
-let isUserNameExists = (user_name) => {
-    
+let isUserNameExist = (user_name) => {
+    const UserPromise = findByUserName(user_name);
+    return UserPromise.then(array => array.length) === 0 ? false : true;
 }
 
 /**
@@ -116,8 +117,9 @@ let isUserNameExists = (user_name) => {
  * @param {*} email
  * @return Boolean 
  */
-let isEmailExists = (email) => {
-
+let isEmailExist = (email) => {
+    const UserPromise = findByEmail(email);
+    return UserPromise.then(array => array.length) === 0 ? false : true;
 }
 
 /**
@@ -125,8 +127,9 @@ let isEmailExists = (email) => {
  * @param {*} mobile_num
  * @return Boolean 
  */
-let isMobileNumExists = (mobile_num) => {
-
+let isMobileNumExist = (mobile_num) => {
+    const UserPromise = findByMobileNum(mobile_num);
+    return UserPromise.then(array => array.length) === 0 ? false : true;
 }
 
 
@@ -140,7 +143,10 @@ module.exports = {
     createUser: createUser,
     findByEmail: findByEmail,
     findByMobileNum: findByMobileNum,
-    findByUserName: findByUserName
+    findByUserName: findByUserName,
+    isEmailExist: isEmailExist,
+    isUserNameExist: isUserNameExist,
+    isMobileNumExist: isMobileNumExist
 };
 
 
