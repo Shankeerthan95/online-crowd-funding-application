@@ -1,142 +1,143 @@
-const assert = require("assert");
+/*
+Todo: 
+    validatePassword (instance)
+    generateJwt (instance)
+    isEmailExist (statics)
+    isUserNameExist (statics)
+    isMobileNumExist (statics)
+    findByEmail (statics)
+
+*/
+
+const mongoose = require("mongoose");
 const sinon = require("sinon");
 const chai = require("chai");
-const mongoose = require("mongoose");
+const assert = chai.assert;
+const stub = sinon.stub();
+// const spy = sinon.spy();
 const User = require("../../../db/models/User");
 
-//Import mongodb connection for testing
+//Initializing mongodb connection
+//mongoose.connect('mongodb://localhost/authenction-service', { useNewUrlParser: true });
 require("../test-helper");
 
-//Test create new user in MonogoDb
-describe("#User (model) persity user object in DB", function() {
-  describe("successfull save operation", function() {
-    it("#should return created user", function(done) {
-      let UserMock = sinon.mock(
-        new User({
-          user_name: "shank",
-          email: "shakeerthana@gmail.com",
-          password: "07774595",
-          mobile_num: "044589494"
-        })
-      );
-      let user = UserMock.object;
+describe("isEmailExist() method", function() {
+  it("Call back should be called with (null, false)", done => {
+    User.isEmailExist("s", (err, exist) => {
+      if (err) {
+        return done(err);
+      }
+      assert.isFalse(exist);
+      assert.isNull(err);
 
-      let expectedResult = { staus: true };
+      return done();
+    });
+  });
 
-      UserMock.expects("save").yields(null, expectedResult);
-      user.save(function(err, user) {
-        if (err) {
-          return done(err);
-        }
+  it("callback should be called with (null, true)", done => {
+    new User({
+      user_name: "Thanu",
+      email: "thanu@gmail.com",
+      mobile_num: "07755",
+      password_hash: "hffs"
+    }).save(function(err, user) {
+      if (err) return done(err);
 
-        
-        UserMock.verify();
-        UserMock.restore();
+      User.isEmailExist("thanu@gmail.com", (err, exist) => {
+        assert.isTrue(exist);
+        assert.isNull(err);
 
         return done();
       });
     });
   });
+});
 
-  describe("UnSuccessful save operation", function() {
-    describe("user_name doesn't exist in User object", function() {
-      it("#should return user_name doesn't exist", function(done) {
-        let UserMock = sinon.mock(
-          new User({
-            email: "shankeerthan@gmail.com",
-            password: "23",
-            mobile_num: "0774455"
-          })
-        );
-        let user = UserMock.object;
+describe("isUserNameExist() method", function() {
+  it("Call back should be called with (null, false)", done => {
+    User.isUserNameExist("s", (err, exist) => {
+      if (err) {
+        return done(err);
+      }
+      assert.isFalse(exist);
+      assert.isNull(err);
 
-        let expectedResult = { status: false };
-
-        UserMock.expects("save").yields(null, expectedResult);
-        user.save(function(err, user) {
-          if (err) {
-            return done(err);
-          }
-
-          UserMock.verify();
-          UserMock.restore();
-
-          return done();
-        });
-      });
-    });
-
-    describe("email doesnt' exist in User Object ", function() {
-      it("should return email doesn't exist", function(done) {
-        let UserMock = sinon.mock(
-          new User({
-            user_name: "shank",
-            password: "3jff",
-            mobile_num: "04400440"
-          })
-        );
-        let user = UserMock.object;
-
-        let expectedResult = { status: false };
-
-        UserMock.expects("save").yields(null, expectedResult);
-
-        user.save(function(err, user) {
-          if (err) {
-            return done(err);
-          }
-
-          UserMock.verify();
-          UserMock.restore();
-
-          return done();
-        });
-      });
-    });
-
-    describe("password doesn't  exist", function() {
-        it("#should return error password doesn't exist", function(done){
-
-            let UserMock = sinon.mock(new User({user_name: "shank", email: "shankeerthan@gamil.com", mobile_num: "077444"}));
-            let user = UserMock.object;
-
-            let expectedResult = { status: false };
-
-            UserMock.expects('save').yields(null, expectedResult);
-
-            user.save(function(err) {
-                if (err)
-                {
-                    return done(err);
-                }
-
-                UserMock.verify();
-                UserMock.restore();
-
-                return done();
-            })
-        })
-    });
-
-    describe("mobile_num doesn't exist", function() {
-        it("#should return an error mobile_num doesn't exist", function(done){
-            
-            let UserMock = sinon.mock(new User({ user_name: "sanak", email: "saa@gmail.com", password: "23rjff"}));
-
-            let user = UserMock.object;
-
-            let expectedResult = { status: false };
-            UserMock.expects('save').yields(null, expectedResult);
-
-            user.save(function(err, user){
-                if (err) return done(err);
-
-                UserMock.verify();
-                UserMock.restore();
-
-                return done();
-            })
-        })
+      return done();
     });
   });
+
+  it("callback should be called with (null, true)", done => {
+    new User({
+      user_name: "Thanu",
+      email: "thanu@gmail.com",
+      mobile_num: "07755",
+      password_hash: "hffs"
+    }).save(function(err, user) {
+      if (err) return done(err);
+
+      User.isUserNameExist("Thanu", (err, exist) => {
+        assert.isTrue(exist);
+        assert.isNull(err);
+
+        return done();
+      });
+    });
+  });
+});
+
+describe("isUserMobileNumExist() method", function() {
+  it("Call back should be called with (null, false)", done => {
+    User.isMobileNumExist("s", (err, exist) => {
+      if (err) {
+        return done(err);
+      }
+      assert.isFalse(exist);
+      assert.isNull(err);
+
+      return done();
+    });
+  });
+
+  it("callback should be called with (null, true)", done => {
+    new User({
+      user_name: "Thanu",
+      email: "thanu@gmail.com",
+      mobile_num: "07755",
+      password_hash: "hffs"
+    }).save(function(err, user) {
+      if (err) return done(err);
+
+      User.isMobileNumExist("07755", (err, exist) => {
+        assert.isTrue(exist);
+        assert.isNull(err);
+
+        return done();
+      });
+    });
+  });
+});
+
+describe("findByEmail() method", function() {
+  it("should return no user ", done => {
+    User.findByEmail("ss", (err, user) => {
+      assert.isNull(err);
+      assert.isNull(user);
+
+      return done();
+    });
+  });
+
+  it('Should return a user', done => {
+    new User({user_name: "sha", email: "sha@gmail.com", password_hash: "hfs", mobile_num: "0955"})
+    .save(function(err, user){
+      if (err) { return done(err); }
+
+      User.findByEmail(user.email, (err, user) => {
+        assert.isNull(err);
+        assert.strictEqual(user.email, "sha@gmail.com");
+
+        return done();
+      })
+    })
+  })
 });
