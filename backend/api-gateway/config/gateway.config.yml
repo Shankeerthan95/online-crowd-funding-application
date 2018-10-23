@@ -1,0 +1,39 @@
+http:
+  port: 8080
+admin:
+  port: 9876
+  hostname: localhost
+apiEndpoints:
+  signup:
+    host: '*'
+    paths: /api/v1/auth/signup
+    methods: ["POST"]
+  login:
+    host: '*'
+    paths: /api/v1/auth/login
+serviceEndpoints:
+  signup:
+    url: "http://localhost:3000"
+  login:
+     url: "http://localhost:3000"
+  
+policies:
+  - proxy
+  - rate-limit
+pipelines:
+  pipe_1:
+    apiEndpoints:
+      - signup
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: signup
+  pipe_2:
+    apiEndpoints:
+      - login
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: login
+      
+  

@@ -8,7 +8,7 @@ const passport = require('passport');
 module.exports = app; 
 
 //Todo: it should be decoupled from source code
-const PORT = 8080;
+const PORT = 3000;
 
 
 //Initiate mongoDb connection
