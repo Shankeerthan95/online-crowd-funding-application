@@ -1,6 +1,7 @@
 const express = require('express')
 const signupRouter = express.Router();
 const { createUser } = require('../services/user-service');
+const {onSignup } = require('../amqp/publish');
 
 
 //URL /api/v1/auth/signup
@@ -27,7 +28,14 @@ signupRouter.post('/', (req, res) => {
 
         if (user)
         {
-            return res.status(200).json(user);
+            onSignup(req.body.user, (err,msg) => {
+            console.log("working");
+
+                if (err) {
+                    res.send(err.message);
+                }
+                res.status(200).send(msg);
+            })
         }
     });
 
