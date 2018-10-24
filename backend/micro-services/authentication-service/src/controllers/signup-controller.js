@@ -1,5 +1,6 @@
 const express = require('express')
 const signupRouter = express.Router();
+const { pickUser } = require('../utils/controller/pick');
 const { createUser } = require('../services/user-service');
 const {onSignup } = require('../amqp/publish');
 
@@ -18,7 +19,8 @@ signupRouter.post('/', (req, res) => {
     createUser(req.body.user, (err, exist, user) => {
         if (err)
         {
-            return res.status(500).send("Error in signup, Try again.");
+            return res.status(500).json(err.message);
+            // return res.status(500).send("Error in signup, Try again.");
         } 
 
         if (exist)
@@ -28,7 +30,8 @@ signupRouter.post('/', (req, res) => {
 
         if (user)
         {
-            onSignup(req.body.user, (err,msg) => {
+
+            onSignup(pickUser(req.body.user), (err,msg) => {
             console.log("working");
 
                 if (err) {

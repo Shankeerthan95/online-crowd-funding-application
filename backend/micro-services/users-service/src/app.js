@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const createUser  = require('./services/createUser');
 
 app.use(bodyParser.json());
 
@@ -11,8 +12,12 @@ require('./db/connect');
 
 
 //Initiate Rabbitmq event listening
-require('./amqp/subcribe');
+const {onUserSignup} = require('./amqp/subcribe');
 
+//Persist user in db when message is consumed by service
+onUserSignup((user) => {
+       createUser(JSON.parse(user.content.toString()), (err, user) => {});
+});
 
 
 

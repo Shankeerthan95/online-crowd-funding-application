@@ -1,0 +1,14 @@
+{
+  "name": "payment-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "shank",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -3,7 +3,10 @@ const amqp = require('amqplib/callback_api');
 const USER_SIGNUP = 'signup';
 
 
-amqp.connect('amqp://localhost', function(err, connection) {
+
+let onUserSignup = (cb) => {
+
+    amqp.connect('amqp://localhost', function(err, connection) {
     if (err) {
         console.log(err);
     }
@@ -19,10 +22,20 @@ amqp.connect('amqp://localhost', function(err, connection) {
             channel.bindQueue(queue.queue, USER_SIGNUP);
 
             channel.consume(queue.queue, function(msg) {
-                console.log('----------------------------------------------------------------------')
-                console.log(msg.content.toString());
+               cb(msg);
             })
         })
 
     })
 });
+}
+
+
+
+
+module.exports = {
+    onUserSignup
+}
+
+
+
