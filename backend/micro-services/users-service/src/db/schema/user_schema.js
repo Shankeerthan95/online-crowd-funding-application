@@ -30,12 +30,16 @@ const userSchema = new Schema({
     social_medias: [
         {type: String}
     ],
-    posts: [ {
-        post_id: {type: String},
+    summary: [
+        {post_id: {type: String},
         title: {type: String},
-        timestamp: {type: Date }
-    }]
-
+        timestamp: {type: Date },
+        target: {type: Number},
+        raised: { type: Number},
+        payment_id: {type: String }
+        }
+    ]
+    
 });
 
 

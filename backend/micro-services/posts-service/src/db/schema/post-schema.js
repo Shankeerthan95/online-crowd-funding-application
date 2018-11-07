@@ -5,6 +5,7 @@ const Schema = mongoose.Schema;
 const PostSchema = new Schema({
     title: {type: String, required: true},
     by: { type: String, required: true},
+    user_id: {type: String, required: true},
     image_urls : [
         {type: String}
     ],

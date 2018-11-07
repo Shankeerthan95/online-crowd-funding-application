@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const _ = require('lodash');
 const bodyParser = require('body-parser');
 const createUser  = require('./services/createUser');
 
@@ -25,12 +26,19 @@ onUserSignup((user) => {
        createUser(JSON.parse(user.content.toString()), (err, user) => {});
 });
 
+
+const { userPostsinfo } = require('./services/update');
+
 onPostCreated((err, msg) => {
     if (err) {
         return console.log("Error in app.js line 25");
     }
 
-    return console.log(msg.content.toString());
+    let updateObj = JSON.parse(msg.content.toString());
+    //.log(updateObj);
+    userPostsinfo(updateObj.by, _.pick(updateObj, ['_id', 'title', 'timestamp']), () =>{});
+    
+    // return console.log(msg.content.toString());
 })
 
 

@@ -11,9 +11,10 @@ router.post("/new", (req, res) => {
     return res.status(400).end("post obj not exist");
   }
 
-  createPost(req.body.post, function(err, post) {
+  return createPost(req.body.post, function(err, post) {
     if (err) {
-      return res.json(err.message);
+      console.log(err.message);
+      return res.status(500).json(err.message);
     }
 
     //On successfull creation of post , it publish message to user service
