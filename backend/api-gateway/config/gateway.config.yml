@@ -11,11 +11,26 @@ apiEndpoints:
   login:
     host: '*'
     paths: /api/v1/auth/login
+  createPost:
+    host: '*'
+    paths: /api/v1/post/new
+  getPosts:
+    host: '*'
+    paths: /api/v1/post/posts
+  getPostById:
+    host: '*'
+    paths: /api/v1/post/posts:id
 serviceEndpoints:
   signup:
     url: "http://localhost:3000"
   login:
      url: "http://localhost:3000"
+  createPost:
+    url:  "http://localhost:8000"
+  getPosts:
+    url:  "http://localhost:8000"
+  getPostById:
+    url:  "http://localhost:8000"
   
 policies:
   - proxy
@@ -35,5 +50,24 @@ pipelines:
       - proxy:
         - action:
             serviceEndpoint: login
-      
-  
+  pipe_3:
+    apiEndpoints:
+      - createPost
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: createPost  
+  pipe_4:
+    apiEndpoints:
+      - getPosts
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: getPosts
+  pipe_5:
+    apiEndpoints:
+      - getPostById
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: getPostById

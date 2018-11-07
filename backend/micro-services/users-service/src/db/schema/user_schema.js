@@ -29,7 +29,12 @@ const userSchema = new Schema({
     },
     social_medias: [
         {type: String}
-    ]
+    ],
+    posts: [ {
+        post_id: {type: String},
+        title: {type: String},
+        timestamp: {type: Date }
+    }]
 
 });
 
