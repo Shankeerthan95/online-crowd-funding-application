@@ -51,3 +51,10 @@ services:
     links:
       - mongo
       - rabbit
+
+  gateway: 
+    container_name: gateway
+    restart: always
+    build: ./api-gateway
+    ports:
+      - "8080:8080"

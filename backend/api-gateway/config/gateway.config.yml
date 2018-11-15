@@ -22,15 +22,15 @@ apiEndpoints:
     paths: /api/v1/post/posts:id
 serviceEndpoints:
   signup:
-    url: "http://localhost:3000"
+    url: "http://auth:3000"
   login:
-     url: "http://localhost:3000"
+     url: "http://url:3000"
   createPost:
-    url:  "http://localhost:8000"
+    url:  "http://post:8000"
   getPosts:
-    url:  "http://localhost:8000"
+    url:  "http://post:8000"
   getPostById:
-    url:  "http://localhost:8000"
+    url:  "http://post:8000"
   
 policies:
   - proxy
