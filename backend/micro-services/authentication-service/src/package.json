@@ -4,7 +4,8 @@
   "description": "This provides user identity verification services.",
   "main": "app.js",
   "scripts": {
-    "test": "mocha ./test/unit/models"
+    "test": "mocha ./test/unit/models",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",

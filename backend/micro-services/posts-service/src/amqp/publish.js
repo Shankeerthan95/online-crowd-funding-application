@@ -4,7 +4,7 @@ const { ON_POST_CREATED }  = require('./evetTypes');
 
 let onPostCreated = (msg, cb) => {
 
-    amqp.connect('amqp://localhost', function(err, conn) {
+    amqp.connect('amqp://rabbit', function(err, conn) {
 
         if (err) {
             return cb(err);

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/post-service', { useNewUrlParser: true });
+mongoose.connect('mongodb://mongo/post-service', { useNewUrlParser: true });
 
 const db = mongoose.connection;
 

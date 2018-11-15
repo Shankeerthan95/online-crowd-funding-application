@@ -13,14 +13,14 @@ router.post("/new", (req, res) => {
 
   return createPost(req.body.post, function(err, post) {
     if (err) {
-      console.log(err.message);
-      return res.status(500).json(err.message);
+      console.log(err);
+      return res.status(400).send(err);
     }
 
     //On successfull creation of post , it publish message to user service
     // Message should contains user_name(by in post_schema) and post _id
     //Todo
-    let msg = _.pick(post, ['_id', 'by', 'title', 'timestamp' ])
+    let msg = _.pick(post, ['_id', 'by', 'title', 'timestamp', 'user_id'])
     onPostCreated(msg, (err) => {
         console.log("Error at index.js line: 22");
     });
@@ -30,13 +30,7 @@ router.post("/new", (req, res) => {
   });
 });
 
-/*
-*   1 post - random for every request 
-*   newers posts 10
-*   gaining momentum 10
-*   successfull 5
-*/
-router.get("/posts/home", (req, res) => {});
+
 
 //Todo : for simplicity now i skip req params
 router.get("/posts", (req, res) => {

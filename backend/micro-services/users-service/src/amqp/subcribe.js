@@ -6,15 +6,15 @@ const POST_DIRECT_EX = "post-direct";
 
 let onUserSignup = cb => {
   amqp.connect(
-    "amqp://localhost",
+    "amqp://rabbit",
     function(err, connection) {
       if (err) {
-        console.log(err);
+        return console.log(err);
       }
 
       connection.createChannel(function(err, channel) {
         if (err) {
-          console.log(err);
+          return console.log(err);
         }
 
         channel.assertExchange(USER_SIGNUP, "fanout", { durable: false });
@@ -31,18 +31,17 @@ let onUserSignup = cb => {
 };
 
 let onPostCreated = cb => {
-  amqp.connect(
-    "amqp://localhost",
+  amqp.connect("amqp://rabbit",
     function(err, conn) {
       if (err) {
-        console.log("Error in subcribe.js line: 38");
+        return console.log("Error in subcribe.js line: 38");
         cb(err);
       }
 
       conn.createChannel(function(err, ch) {
 
         if (err) {
-            console.log("Error in subcribe.js line: 38");
+            return console.log("Error in subcribe.js line: 38");
             cb(err);
         }
 

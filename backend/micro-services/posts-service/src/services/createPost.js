@@ -9,7 +9,7 @@ const { validatePost } = require('../utils/services/validation');
 const createPost = (post_body, cb) => {
 
     if (!validatePost(post_body)) {
-        cb("Request doesn't fulfill");
+        return cb("Request doesn't fulfill");
     }
 
     new Post(post_body).save(function(err, post) {

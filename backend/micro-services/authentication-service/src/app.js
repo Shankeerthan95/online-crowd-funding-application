@@ -36,7 +36,7 @@ app.use('/api/v1/auth/login', loginRouter);
 
 
 
-app.listen(PORT, 'localhost', () => {
+app.listen(PORT, () => {
     console.log("App Listening on ", PORT);
 
 });

@@ -103,6 +103,7 @@ Authentication service
     body: {
         "post": {
             "title": ,
+            "user_id",
             "by": ,
             "image_urls":[],
             "video_urls": [] ,

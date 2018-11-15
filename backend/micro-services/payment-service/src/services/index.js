@@ -6,12 +6,16 @@ const mysql_connection_pool = require("../db/connect");
 */
 let initPaymentRecordForPost = ({ post_id, user_id }) => {
   let sql =
-    `insert into post_payments ('post_id','user_id', 'total_amount')` +
-    `values(${post_id}, ${user_id}, ${0})`;
+    `insert into post_payments (post_id, user_id , total_amount)` +
+    "values('" + post_id  + "'" + ", '" +  user_id + "' ," + "0)";
+
+    console.log(sql);
 
   mysql_connection_pool.query(sql, function(err, results, fields) {
     if (err) {
+      console.log(err.message);
       return console.log("Error in index.js line 14");
+    
     }
     console.log(results);
     console.log(fields);

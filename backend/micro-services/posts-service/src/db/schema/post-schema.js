@@ -50,7 +50,9 @@ const PostSchema = new Schema({
         country: [ {type: String}],
         places: [ {type: String }]
     },
-    timestamp: {type: Date, default: Date.now}
+    timestamp: {type: Date, default: Date.now},
+    donatation_button: {type: String, required: true},
+    end:{type: Boolean, default: false}
 
 });
     
