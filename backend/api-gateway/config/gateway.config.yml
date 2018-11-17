@@ -24,7 +24,7 @@ serviceEndpoints:
   signup:
     url: "http://auth:3000"
   login:
-     url: "http://url:3000"
+     url: "http://auth:3000"
   createPost:
     url:  "http://post:8000"
   getPosts:
