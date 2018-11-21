@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff0072ce-ecc7-4bff-b744-63aaa4ec4a1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/3.0/backend/rabbitmq/lib/config/generated/vm.2019.01.20.08.24.16.args" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/signup/signup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/signup/signup.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +54,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="48" />
+          <entry key="HTML" value="49" />
           <entry key="JSON" value="16" />
           <entry key="JavaScript" value="21" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="TypeScript" value="131" />
+          <entry key="TypeScript" value="133" />
           <entry key="YAML" value="4" />
           <entry key="tsconfig" value="3" />
         </counts>
@@ -79,7 +74,7 @@
           <entry key="JSON" value="28" />
           <entry key="JavaScript" value="12" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="TypeScript" value="3271" />
+          <entry key="TypeScript" value="3276" />
           <entry key="TypeScript JSX" value="2" />
         </counts>
       </usages-collector>
@@ -102,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="1229">
               <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
               <folding>
                 <element signature="e#4123#4129#0" expanded="true" />
@@ -118,37 +113,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="928">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.ts">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="855">
+              <caret line="60" column="48" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.service.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -165,9 +151,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            <state relative-caret-position="345">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
+                <element signature="e#0#43#0" expanded="true" />
                 <element signature="e#179#240#0" expanded="true" />
                 <element signature="n#!!block;n#handleError#0;n#SignupService#0" />
               </folding>
@@ -254,12 +241,10 @@
         <option value="$PROJECT_DIR$/frontend/src/app/auth/auth.module.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.tsx" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/signup/signup.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/signup/message-passer.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/auth/login/login.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/signup/signup.service.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/signup/signup.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/loginOLD/login.component.spec.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/admin/admin/admin.component.html" />
@@ -281,6 +266,8 @@
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/signup/signup.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/signup/signup.component.ts" />
       </list>
     </option>
   </component>
@@ -291,739 +278,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/backend/1.0/api-gateway/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/1.0/micro-services/authentication-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/1.0/micro-services/payment-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/1.0/micro-services/posts-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/1.0/micro-services/users-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/2.0/backend-build/api-gateway/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/authentication-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/payment-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/posts-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/users-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/3.0/backend/api-gateway/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/authentication-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/payment-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/posts-service/src/node_modules" />
-    <handled-path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/users-service/src/node_modules" />
     <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/backend/1.0/api-gateway/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/authentication-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ansi-align/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/assign-symbols/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/async-each/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/base/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/base/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/base/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/boxen/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/braces/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/capture-stack-trace/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ci-info/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/class-utils/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/cli-boxes/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/configstore/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/create-error-class/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/cross-spawn/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/crypto-random-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/dot-prop/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/duplexer/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/duplexer3/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/event-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/execa/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/expand-brackets/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/fill-range/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/flatmap-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/from/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/get-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/glob-parent/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/global-dirs/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/got/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ignore-by-default/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/import-lazy/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/imurmurhash/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-ci/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-installed-globally/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-npm/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-number/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-obj/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-path-inside/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-redirect/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-retry-allowed/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/isexe/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/latest-version/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/lodash.debounce/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/lowercase-keys/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/make-dir/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/map-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/nodemon/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/npm-run-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/object-copy/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/object-copy/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/p-finally/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/package-json/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/path-is-inside/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/path-key/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/pause-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/prepend-http/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ps-tree/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/pseudomap/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/pstree.remy/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/registry-auth-token/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/registry-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/semver-diff/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/set-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/shebang-command/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/shebang-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/split/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/static-extend/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/stream-combiner/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/strip-eof/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/term-size/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/timed-out/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/to-object-path/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/touch/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/undefsafe/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/undefsafe/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/union-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/unique-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/unzip-response/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/upath/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/update-notifier/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/url-parse-lax/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/which/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/widest-line/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/write-file-atomic/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/xdg-basedir/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/payment-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/posts-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/1.0/micro-services/users-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/api-gateway/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/authentication-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ansi-align/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/assign-symbols/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/async-each/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/base/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/base/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/base/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/boxen/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/braces/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/capture-stack-trace/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ci-info/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/class-utils/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/cli-boxes/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/configstore/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/create-error-class/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/cross-spawn/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/crypto-random-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/dot-prop/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/duplexer/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/duplexer3/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/event-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/execa/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/expand-brackets/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/fill-range/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/flatmap-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/from/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/get-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/glob-parent/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/global-dirs/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/got/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ignore-by-default/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/import-lazy/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/imurmurhash/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-ci/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-installed-globally/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-npm/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-number/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-obj/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-path-inside/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-redirect/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-retry-allowed/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/isexe/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/latest-version/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/lodash.debounce/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/lowercase-keys/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/make-dir/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/map-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/nodemon/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/npm-run-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/object-copy/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/object-copy/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/p-finally/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/package-json/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/path-is-inside/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/path-key/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/pause-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/prepend-http/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ps-tree/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/pseudomap/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/pstree.remy/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/registry-auth-token/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/registry-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/semver-diff/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/set-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/shebang-command/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/shebang-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/split/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/static-extend/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/stream-combiner/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/strip-eof/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/term-size/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/timed-out/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/to-object-path/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/touch/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/undefsafe/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/undefsafe/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/union-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/unique-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/unzip-response/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/upath/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/update-notifier/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/url-parse-lax/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/which/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/widest-line/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/write-file-atomic/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/xdg-basedir/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/payment-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/posts-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/2.0/backend-build/micro-services/users-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/api-gateway/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/authentication-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ansi-align/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/assign-symbols/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/async-each/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/base/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/base/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/base/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/boxen/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/braces/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/capture-stack-trace/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ci-info/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/class-utils/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/cli-boxes/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/configstore/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/create-error-class/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/cross-spawn/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/crypto-random-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/debug/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/dot-prop/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/duplexer/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/duplexer3/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/event-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/execa/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/expand-brackets/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/fill-range/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/flatmap-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/from/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/get-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/glob-parent/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/global-dirs/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/got/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ignore-by-default/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/import-lazy/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/imurmurhash/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-ci/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-installed-globally/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-npm/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-number/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-obj/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-path-inside/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-redirect/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-retry-allowed/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/isexe/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/latest-version/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/lodash.debounce/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/lowercase-keys/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/make-dir/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/map-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/nodemon/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/npm-run-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/object-copy/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/object-copy/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/p-finally/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/package-json/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/path-is-inside/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/path-key/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/pause-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/prepend-http/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ps-tree/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/pseudomap/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/pstree.remy/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/registry-auth-token/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/registry-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/semver-diff/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/set-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/shebang-command/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/shebang-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/split/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/static-extend/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/stream-combiner/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/strip-eof/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/term-size/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/timed-out/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/to-object-path/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/touch/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/undefsafe/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/undefsafe/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/union-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/unique-string/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/unzip-response/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/upath/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/update-notifier/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/url-parse-lax/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/which/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/widest-line/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/write-file-atomic/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/xdg-basedir/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/payment-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/posts-service/src/package.json" />
-      <path value="$PROJECT_DIR$/backend/3.0/backend/micro-services/users-service/src/package.json" />
       <path value="$PROJECT_DIR$/frontend/package.json" />
     </packageJsonPaths>
   </component>
@@ -1222,7 +480,7 @@
       <workItem from="1547914028834" duration="597000" />
       <workItem from="1547951759866" duration="9086000" />
       <workItem from="1547971933253" duration="1436000" />
-      <workItem from="1548082201403" duration="5330000" />
+      <workItem from="1548082201403" duration="7190000" />
     </task>
     <task id="LOCAL-00001" summary="front end integrated">
       <created>1542386625785</created>
@@ -1242,7 +500,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177096000" />
+    <option name="totallyTimeSpent" value="178956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1255,8 +513,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.265625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.265625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1270,7 +529,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="10" sideWeight="0.52625" weight="0.1831357" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.570625" visible="true" weight="0.24242425" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.570625" visible="true" weight="0.24242425" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.429375" side_tool="true" weight="0.24505928" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1455,27 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="43" column="80" lean-forward="true" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1507,41 +745,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-          <folding>
-            <element signature="e#179#240#0" expanded="true" />
-            <element signature="n#!!block;n#handleError#0;n#SignupService#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1563,16 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1607,7 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="1229">
           <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
           <folding>
             <element signature="e#4123#4129#0" expanded="true" />
@@ -1615,6 +812,69 @@
             <element signature="e#4217#4223#0" expanded="true" />
             <element signature="e#4264#4270#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#179#240#0" expanded="true" />
+            <element signature="n#!!block;n#handleError#0;n#SignupService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/post-details/post-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
