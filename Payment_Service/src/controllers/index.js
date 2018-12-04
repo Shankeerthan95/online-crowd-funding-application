@@ -8,7 +8,6 @@ Router.post('/donate', (req, res) => {
 
 
 
-//Response 1st set of users in the list and url for nextusers
 Router.get('/:postid/donors', (req, res) => {
 
 })
