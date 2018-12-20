@@ -1,0 +1,20 @@
+{
+  "name": "posts-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "author": "shank",
+  "license": "ISC",
+  "dependencies": {
+    "amqp-lib": "^0.3.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.6"
+  }
+}
