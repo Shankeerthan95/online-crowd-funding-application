@@ -9,9 +9,7 @@ export class AppComponent {
     title = 'frontend';
 
 
-    onSubmit() {
-        console.log(this.userModel);
-    }
+
 
 }
 
