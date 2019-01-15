@@ -1,0 +1,73 @@
+http:
+  port: 8080
+admin:
+  port: 9876
+  hostname: localhost
+apiEndpoints:
+  signup:
+    host: '*'
+    paths: /api/v1/auth/signup
+    methods: ["POST"]
+  login:
+    host: '*'
+    paths: /api/v1/auth/login
+  createPost:
+    host: '*'
+    paths: /api/v1/post/new
+  getPosts:
+    host: '*'
+    paths: /api/v1/post/posts
+  getPostById:
+    host: '*'
+    paths: /api/v1/post/posts:id
+serviceEndpoints:
+  signup:
+    url: "http://auth:3000"
+  login:
+     url: "http://auth:3000"
+  createPost:
+    url:  "http://post:8000"
+  getPosts:
+    url:  "http://post:8000"
+  getPostById:
+    url:  "http://post:8000"
+  
+policies:
+  - proxy
+  - rate-limit
+pipelines:
+  pipe_1:
+    apiEndpoints:
+      - signup
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: signup
+  pipe_2:
+    apiEndpoints:
+      - login
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: login
+  pipe_3:
+    apiEndpoints:
+      - createPost
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: createPost  
+  pipe_4:
+    apiEndpoints:
+      - getPosts
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: getPosts
+  pipe_5:
+    apiEndpoints:
+      - getPostById
+    policies:
+      - proxy:
+        - action:
+            serviceEndpoint: getPostById

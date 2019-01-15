@@ -13,6 +13,7 @@ import {HomeComponent} from './home/home.component';
 import {FormsModule} from '@angular/forms';
 import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { ReactiveFormsModule } from '@angular/forms';
         LoginComponent,
         AdminComponent,
         HomeComponent,
-        SignupComponent
+        SignupComponent,
+        PageNotFoundComponent
     ],
     imports: [
         BrowserModule,

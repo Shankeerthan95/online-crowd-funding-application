@@ -1,0 +1,125 @@
+Authentication service
+------------------------------------------------------------------------------------------------------------------
+1)
+
+     http://localhost/api/v1/auth/signup
+
+     method:    POST
+     contenttype: application/json
+     body: {
+         "user":  {
+                "user_name": "shank",
+                "mobile_num" "040404404",
+                "email": "shan@gmail.com"
+                "password": "hfsf",
+                "person" : {
+                    "firstName":,
+                    "lastName":
+                },
+                "organization": {
+                    "name": ,
+                    "isNonProfit":,
+                    "noOfMembers":,
+                    "hasOffice":,
+                    "description":,
+                },
+                "country": ,
+                "address": {
+                    "street": ,
+                    "cityOrTown": ,
+                    "district": ,
+                    "stateOrProvince": ,
+                    "country":,
+                    "postalCode": 
+                }
+
+            }
+     } 
+
+
+
+    eg:    
+
+
+
+    {
+	"user": {
+                "user_name": "john",
+                "mobile_num": "0404044",
+                "email": "john@gmail.com",
+                "password": "john",
+                "person" : {
+                    "firstName": "sfs",
+                    "lastName": "hfsfs"
+                },
+                "country": "Srilanka" ,
+                "address": {
+                    "street": "fsfs",
+                    "cityOrTown": "hsfsf" ,
+                    "district": "hfsfs" ,
+                    "stateOrProvince": "hsfsf",
+                    "country": "hsfsf",
+                    "postalCode": "400440"
+                }
+
+            }
+}
+
+
+
+
+           
+2)
+
+    http://localhost:8080/api/v1/auth/login
+
+    method: POST 
+    body: 
+    {
+	"email": "john@gmail.com",
+	"password": "john"
+    }
+
+    eg:
+        {
+            "email": "john@gmail.com",
+            "password": "john"
+        }
+}
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+                                Posts service
+-----------------------------------------------------------------------------------------------------------------
+
+1)
+    http://localhost:8080/api/v1/post/new
+
+    method: POST
+    body: {
+        "post": {
+            "title": ,
+            "user_id",
+            "by": ,
+            "image_urls":[],
+            "video_urls": [] ,
+            "story": ,
+            "target_amount": {
+                "currency": ,
+                "amount": 
+            },
+            "campaign_amount": {
+                "start": ,
+                "end": 
+            },
+            "description": ,
+            "campaign_location": {
+                "country": ,
+                "places": []
+            }
+        }
+    }

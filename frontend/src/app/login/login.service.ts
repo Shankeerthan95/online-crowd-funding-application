@@ -1,15 +1,26 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpErrorResponse} from '@angular/common/http';
-import { HttpHeaders } from '@angular/common/http';
+import {HttpClient, HttpErrorResponse, HttpParams} from '@angular/common/http';
+// import { HttpHeaders } from '@angular/common/http';
 import {Observable, throwError} from 'rxjs';
 import {catchError} from 'rxjs/operators';
 
+import { HttpHeaders } from '@angular/common/http';
+
 const httpOptions = {
     headers: new HttpHeaders({
-        'Content-Type':  'application/json',
-         'Authorization': 'my-auth-token'
-        // 'Access-Control-Allow-Credentials': 'true'
+        'Content-Type' : 'application/json;charset=utf-8',
+        // 'Content-Type':  'application/json'
+        // 'Cache-Control': 'no-cache',
+        'Authorization': 'Basic YWxhZGRpbjpvcGVuc2VzYW1l',
+        // 'Proxy-Authorization': 'Basic YWxhZGRpbjpvcGVuc2VzYW1l'
+        // 'WWW-Authenticate' : 'Basic realm =  Our Site'
+        // 'WWW-Authenticate: Basic realm' : ' User Visible Realm ' // , charset="UTF-8'
+        // 'Authorization': 'my-auth-token'
     })
+};
+
+const  options = {
+    headers: httpOptions
 };
 
 @Injectable({
@@ -19,6 +30,7 @@ const httpOptions = {
 
 
 export class LoginService {
+
 
   // url = 'http://localhost:8080/api/v1/auth/login';
     url = '/api/v1/auth/login';
@@ -30,9 +42,38 @@ export class LoginService {
   //
   // }
 
+
+    // post<T>(url: string, body: any | null, options?: {
+    //     headers?: HttpHeaders | {
+    //         [header: string]: string | string[];
+    //     };
+    //     observe?: 'body';
+    //     params?: HttpParams | {
+    //         [param: string]: string | string[];
+    //     };
+    //     reportProgress?: boolean;
+    //     responseType?: 'json';
+    //     withCredentials?: boolean;
+    // }): Observable<T>;
+
+
     /** POST: add a new hero to the database */
     loginUser (hero: any): Observable<any> {
-        return this.http.post<any>(this.url, hero, httpOptions)
+       console.log(hero);
+
+        // return this.http.post<any>(this.url, hero,
+        //     {
+        //         headers: httpOptions,
+        //         /*observe: 'response'*/
+        //     }
+        // ) .pipe(
+        //     catchError(this.handleError)
+        // );
+
+
+
+
+        return this.http.post<any>(this.url, hero, httpOptions , )
             .pipe(
                 catchError(this.handleError)
             );

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {User} from './user';
+import { FormBuilder } from '@angular/forms';
+import {SignupService} from './signup.service';
 
 @Component({
   selector: 'app-signup',
@@ -8,16 +9,49 @@ import {User} from './user';
 })
 export class SignupComponent implements OnInit {
 
-  constructor() { }
+  constructor(private fb: FormBuilder , private signupService: SignupService) { }
 
     title = 'frontend';
-  userModel = new User();
+
+       signUpForm = this.fb.group({
+       user : this.fb.group({
+            user_name: [''],
+            mobile_num: [''],
+            email: [''],
+            password: [''],
+
+            person : this.fb.group({
+                firstName: [''],
+                lastName : [''],
+
+            }),
+
+           country: [''],
+
+           address : this.fb.group({
+               street: [''],
+               cityOrTown: [''],
+               district: [''],
+               stateOrProvince: [''],
+               country: [''],
+               postalCode: ['']
+           })
+
+        })
+
+
+    });
 
   ngOnInit() {
   }
 
     onSubmit() {
-        console.log(this.userModel);
+        // console.log(this.signUpForm.value);
+        this.signupService.signUpUser(this.signUpForm.value)
+            .subscribe(
+                response => console.log('Success'),
+                error1 => console.log('error')
+            );
     }
 
 }
