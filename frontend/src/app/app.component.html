@@ -80,6 +80,13 @@
             <li class="nav-item ">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link " routerLink="/admin" routerLinkActive="active" >Profile</a>
+            </li>
+
+
             <li class="nav-item">
                 <a class="nav-link " routerLink="/signup" routerLinkActive="active" >Signup</a>
             </li>
@@ -133,4 +140,6 @@
 <!--</ul>-->
 
 
-<router-outlet></router-outlet>
+<div [@routeAnimation]="getAnimationData(routerOutlet)">
+    <router-outlet #routerOutlet="outlet"></router-outlet>
+</div>
