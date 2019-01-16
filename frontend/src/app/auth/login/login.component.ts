@@ -6,6 +6,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 
 import {LoginService} from './login.service';
 
+
 @Component({
     selector: 'app-login',
     templateUrl: './login.component.html',
@@ -14,7 +15,10 @@ import {LoginService} from './login.service';
 export class LoginComponent {
     message: string;
 
-    constructor(public authService: AuthService, public router: Router , private loginService: LoginService) {
+    public router: Router;
+
+    constructor(public authService: AuthService, router: Router , private loginService: LoginService ) {
+        this.router = router;
         this.setMessage();
     }
 
@@ -31,7 +35,8 @@ export class LoginComponent {
     login() {
         this.message = 'Trying to log in ...';
 
-        this.authService.login(this.loginForm.value).subscribe(() => {
+        this.authService.login(this.loginForm.value)
+            .subscribe(() => {
             this.setMessage();
             if (this.authService.isLoggedIn) {
                 // Get the redirect URL from our auth service
@@ -41,7 +46,12 @@ export class LoginComponent {
                 // Redirect the user
                 this.router.navigate([redirect]);
             }
-        });
+        },
+                () => {
+                    this.message = 'Wrong user name or password... Try again';
+                    console.log('error');
+                }
+        );
     }
 
     logout() {
