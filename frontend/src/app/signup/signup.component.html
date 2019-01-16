@@ -1,22 +1,27 @@
-<div class="container ">
-  <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
-    {{ signUpForm.value | json }}
+{{ signUpForm.value | json }}
+
+<div class="container col-md-5 col-md-offset-5">
+    <div class="alert alert-primary" role="alert">
+  <h4 class="text-center"><strong > Sign up </strong> </h4>
+    </div>
+  <form [formGroup]="signUpForm" >
+
     <div formGroupName="user">
 
       <div formGroupName="person">
         <div class="form-group">
-          <label>First Name</label>
+          <strong>First Name</strong>
           <input type="text" class="form-control" formControlName="firstName" >
         </div>
         <div class="form-group">
-          <label>Last Name</label>
+          <strong>Last Name</strong>
           <input type="text" class="form-control" formControlName="lastName" >
         </div>
       </div>
 
       <div formGroupName="address">
         <div class="form-group">
-          <label>Address</label>
+          <strong>Address</strong>
           <input type="text" class="form-control" formControlName="street" placeholder="Street" >
           <input type="text" class="form-control" formControlName="cityOrTown" placeholder="City or Town" >
           <input type="text" class="form-control" formControlName="district" placeholder="District" >
@@ -27,36 +32,36 @@
       </div>
 
       <div class="form-group">
-        <label>User Name</label>
+        <strong>User Name</strong>
         <input type="text" class="form-control" formControlName="user_name" >
       </div>
 
       <div class="form-group">
-        <label>Password</label>
+        <strong>Password</strong>
         <input type="password" class="form-control" formControlName="password" >
       </div>
 
       <div class="form-group">
-        <label>Email</label>
+        <strong>Email</strong>
         <input type="text" class="form-control" formControlName="email" >
       </div>
 
       <div class="form-group">
-        <label>Telephone</label>
+        <strong>Telephone</strong>
         <input type="number" class="form-control" formControlName="mobile_num" >
       </div>
 
       <div class="form-group">
-        <label>Country</label>
+        <strong>Country</strong>
         <input type="text" class="form-control" formControlName="country" >
       </div>
 
 
 
-
-
-      <button type="submit" class="btn btn-primary" >Submit</button>
     </div>
+
+      <button (click)="onSubmit()" type="button" class="btn btn-success btn-lg btn-block" >Sign up</button>
+
   </form>
 </div>
 

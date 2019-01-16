@@ -1,6 +1,9 @@
 import {Component} from '@angular/core';
 import { slideInAnimation } from './animations';
 import {RouterOutlet} from '@angular/router';
+import {AuthService} from './auth/auth.service';
+
+
 
 @Component({
     selector: 'app-root',
@@ -10,6 +13,9 @@ import {RouterOutlet} from '@angular/router';
 })
 export class AppComponent {
     title = 'frontend';
+    constructor(public authService: AuthService) {
+    }
+
 
     getAnimationData(outlet: RouterOutlet) {
         return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];

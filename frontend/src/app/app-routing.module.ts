@@ -4,16 +4,18 @@ import {Routes, RouterModule} from '@angular/router';
 import {SignupComponent} from './signup/signup.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {AuthGuard} from './auth/auth.guard';
+import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
     // {path : 'login', component : LoginComponent , data: { animation: 'login' }},
     {path : 'signup', component : SignupComponent, data: { animation: 'signup' }},
+    {path : 'home', component : HomeComponent, data: { animation: 'home' }},
     {
         path: 'admin',
         loadChildren: './admin/admin.module#AdminModule',
         canLoad: [AuthGuard]
     },
-    { path: '',   redirectTo: '/login', pathMatch: 'full' },
+    { path: '',   redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent }
 
 ];
