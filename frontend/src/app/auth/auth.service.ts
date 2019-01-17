@@ -7,7 +7,7 @@ import {LoginService} from './login/login.service';
 @Injectable({
     providedIn: 'root',
 })
-export class AuthService extends LoginService{
+export class AuthService extends LoginService {
     isLoggedIn = false;
 
     // store the URL so we can redirect after logging in

@@ -12,7 +12,7 @@ signupRouter.post('/', (req, res) => {
     if (!req.body.user)
     {
               
-        res.status(401).send({message: "Error, body doesn't contain user"});
+        res.status(401).json({message: "Error, body doesn't contain user"});
         return;
     }
 
@@ -25,7 +25,7 @@ signupRouter.post('/', (req, res) => {
 
         if (exist)
         {
-            return res.status(401).send("Entered credentials already exist.");
+            return res.status(401).json("Entered credentials already exist.");
         }
 
         if (user)
@@ -35,9 +35,10 @@ signupRouter.post('/', (req, res) => {
             console.log("working");
 
                 if (err) {
-                    res.send(err.message);
+                    res.json(err.message);
                 }
-                res.status(200).send(msg);
+                //res.status(200).send(msg);
+                res.status(200).json(msg);
             })
         }
     });

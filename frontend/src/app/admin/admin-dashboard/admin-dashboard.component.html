@@ -1,3 +1,98 @@
-<p>
-  admin-dashboard works!
-</p>
+<div class="container col-md-6 col-md-offset-5">
+
+    <div class="alert alert-primary" role="alert">
+        <h4 class="text-center"><strong> Post </strong> </h4>
+    </div>
+
+    <form [formGroup] = "postForm" (ngSubmit)="onSubmit()" ngNativeValidate>
+        <div formGroupName = "post">
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">User ID</label>
+                <div class="col-sm-8"> <input type="text"  class="form-control" formControlName="user_id" required> </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">Title</label>
+                <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="title" > </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">By</label>
+                <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="by" > </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">Image urls</label>
+                <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="image_urls" ></div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">Video urls</label>
+                <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="video_urls" ></div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">Story</label>
+                <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="story" ></div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">Description</label>
+                <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="description" ></div>
+            </div>
+
+            <div formGroupName="target_amount">
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label col-form-label-sm">Currency</label>
+                    <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="currency" ></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label col-form-label-sm">Amount</label>
+                    <div class="col-sm-8"> <input  type="number" required class="form-control" formControlName="amount" ></div>
+                </div>
+            </div>
+
+            <div formGroupName="campaign_period">
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label col-form-label-sm">Start</label>
+                    <div class="col-sm-8"> <input  type="date" required class="form-control" formControlName="start" ></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label col-form-label-sm">End</label>
+                    <div class="col-sm-8"> <input  type="date" required class="form-control" formControlName="end" ></div>
+                </div>
+            </div>
+
+            <div formGroupName="campaign_location">
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label col-form-label-sm">Country</label>
+                    <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="country" ></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label col-form-label-sm">Places</label>
+                    <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="places" ></div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label col-form-label-sm">Donation button</label>
+                <div class="col-sm-8"> <input type="text" required class="form-control" formControlName="donatation_button" ></div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <input type="submit" class="btn btn-success btn-lg btn-block" >
+
+    </form>
+
+
+</div>
+
+{{ postForm.value | json }}

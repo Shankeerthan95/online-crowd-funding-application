@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import {SignupService} from './signup.service';
+import {Router} from '@angular/router';
+
 
 @Component({
   selector: 'app-signup',
@@ -9,9 +11,14 @@ import {SignupService} from './signup.service';
 })
 export class SignupComponent implements OnInit {
 
-  constructor(private fb: FormBuilder , private signupService: SignupService) { }
 
-    title = 'frontend';
+
+
+    constructor(private fb: FormBuilder , private signupService: SignupService, public router: Router ) {
+  }
+
+    title = 'Sign up';
+    message: string;
 
        signUpForm = this.fb.group({
        user : this.fb.group({
@@ -46,11 +53,20 @@ export class SignupComponent implements OnInit {
   }
 
     onSubmit() {
+        this.message = 'Trying to Sign Up ...';
         // console.log(this.signUpForm.value);
         this.signupService.signUpUser(this.signUpForm.value)
             .subscribe(
-                response => console.log('Success'),
-                error1 => console.log('error')
+                () => {
+                    this.router.navigate(['/home']);
+                },
+                () => {
+                    // this.message = this.signupService.getErrorMessage();
+                    // console.log(this.signupService.errorMessage);
+                   // this.signupService.currentMessage.subscribe(message => this.message = message)
+                    console.log('error');
+
+                }
             );
     }
 

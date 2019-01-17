@@ -1,4 +1,7 @@
-{{ signUpForm.value | json }}
+
+<div class="alert alert-info" role="alert">
+  {{message}}
+</div>
 
 <div class="container col-md-5 col-md-offset-5">
     <div class="alert alert-primary" role="alert">
@@ -64,5 +67,9 @@
 
   </form>
 </div>
+
+{{ signUpForm.value | json }}
+
+
 
 <router-outlet></router-outlet>

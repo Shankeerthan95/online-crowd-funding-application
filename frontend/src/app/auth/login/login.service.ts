@@ -37,7 +37,7 @@ export class LoginService {
     // url = 'http://localhost:8080/api/v1/auth/login';
     url = '/api/v1/auth/login';
 
-    constructor(public http: HttpClient) { }
+    constructor(public http: HttpClient ) { }
 
     // loginUser(loginForm) {
     //     return this.http.post(this.url, loginForm, httpOptions);

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import {NavigationExtras, Router} from '@angular/router';
 import { AuthService } from '../auth.service';
 
 import { FormGroup, FormControl } from '@angular/forms';
@@ -13,7 +13,7 @@ import {LoginService} from './login.service';
     styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-    message: string;
+    public  message: string;
 
     public router: Router;
 
@@ -43,8 +43,15 @@ export class LoginComponent {
                 // If no redirect has been set, use the default
                 const redirect = this.authService.redirectUrl ? this.authService.redirectUrl : '/admin';
 
+                // Set our navigation extras object
+                // that passes on our global query params and fragment
+                const navigationExtras: NavigationExtras = {
+                    queryParamsHandling: 'preserve',
+                    preserveFragment: true
+                };
+
                 // Redirect the user
-                this.router.navigate([redirect]);
+                this.router.navigate([redirect], navigationExtras);
             }
         },
                 () => {
@@ -63,8 +70,13 @@ export class LoginComponent {
         // console.log(this.loginForm.value);
         this.loginService.loginUser(this.loginForm.value)
             .subscribe(
-                response => console.log('Sucess'),
-                error1 => console.log('error')
+                () => {
+                    this.router.navigate(['/home']);
+                },
+                () => {
+                    this.message = 'Something went wrong... Please try again';
+                    console.log('error');
+                }
             );
     }
 
