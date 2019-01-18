@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {HomeService,PostResponses} from './home.service';
+import {Home} from './home';
 
 @Component({
     selector: 'app-home',
@@ -8,7 +9,9 @@ import {HomeService,PostResponses} from './home.service';
 })
 export class HomeComponent implements OnInit {
     private headers: string[];
-    postResponses: PostResponses[];
+    public postResponses: Home[] = [];
+    public test: string;
+    public dummy: Home;
 
     constructor(private homeService: HomeService) {
     }
@@ -26,15 +29,31 @@ export class HomeComponent implements OnInit {
 
                 // access the body directly, which is typed as `Config`.
                 this.postResponses = { ... resp.body };
-                // console.log(this.postResponse[0].title);
+                this.test = this.postResponses[0].title;
+                this.dummy = this.postResponses[0];
+
+                console.log(this.postResponses[0].title);
                 console.log(this.postResponses);
 
                 // console.log(this.headers);
             });
     }
 
+    // showConfig() {
+    //     this.homeService.getConfig()
+    //     // clone the data object, using its known Config shape
+    //         .subscribe((data: NewPost) => this.postResponses = { ...data });
+    //     console.log(this.postResponses);
+    //
+    // }
+
+
+
+
     ngOnInit() {
         this.showConfigResponse();
+
     }
+
 
 }

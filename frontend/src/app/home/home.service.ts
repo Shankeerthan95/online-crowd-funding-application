@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpErrorResponse, HttpResponse} from '@angular/common/http';
-import {Observable, throwError} from 'rxjs';
+import {Observable, Subscription, throwError} from 'rxjs';
 import {catchError} from 'rxjs/operators';
+import {Home} from './home';
 
 export interface TargetAmount {
     currency: string;
@@ -23,6 +24,10 @@ export interface PostResponses {
     description: string;
 }
 
+export interface NewPost {
+    postResponse: Home[];
+}
+
 
 
 @Injectable({
@@ -33,11 +38,17 @@ export class HomeService {
   constructor(private http: HttpClient) { }
 
     url = 'api/v1/post/posts?page=0&limit=3';
-    getConfigResponse(): Observable<HttpResponse<PostResponses[]>> {
-        return this.http.get<PostResponses[]>(
+
+    getConfigResponse(): Observable<HttpResponse<Home[]>> {
+        return this.http.get<Home[]>(
             this.url, { observe: 'response' }).pipe(
             catchError(this.handleError)
-        );;
+        );
+    }
+
+    getConfig() {
+        // now returns an Observable of Config
+        return this.http.get<Home[]>(this.url);
     }
 
 
@@ -56,4 +67,6 @@ export class HomeService {
         return throwError(
             'Something bad happened; please try again later.');
     }
+
+
 }
