@@ -21,22 +21,30 @@
 
 
 <!--{{postResponses[1]?.title }}-->
-<!--{{dummy?.description}}-->
-<!--{{dummy?.campaign_location?.country}} {{dummy?.campaign_location?.country}}-->
-<!--{{dummy?.places }}-->
-<!--{{dummy?.image_urls }}-->
-
-
-<!--{{dummy?._id}}-->
+<!--{{postResponses[1]?.description}}-->
+<!--{{postResponses[1]?.campaign_location?.country}} {{dummy?.campaign_location?.country}}-->
+<!--{{postResponses[1]?.places }}-->
+<!--{{postResponses[1]?.image_urls }}-->
+<!--{{postResponses[1]?._id}}-->
 
 <!--</pre>-->
 
+<!--<pre>-->
+<ol *ngFor="let ps of list1">
+    <li> {{postResponses[ps]?._id}}</li>
+    <li>{{postResponses[ps]?.title }}</li>
+    <li>  {{postResponses[ps]?.description}}</li>
+    <li>  {{postResponses[ps]?.target_amount?.currency}} {{postResponses[ps]?.target_amount?.amount}}</li>
+    <li> {{postResponses[ps]?.campaign_location?.places}} {{postResponses[ps]?.campaign_location?.country}}</li>
+    <li>{{postResponses[ps]?.image_urls }}</li>
 
-<!--<ul>-->
-<!--<li *ngFor="let ps of postResponses">-->
-<!--{{ ps?.title }}-->
-<!--</li>-->
-<!--</ul>-->
+
+    <!--{{postResponses[ps]?.campaign_location?.country}} {{dummy?.campaign_location?.country}}-->
+    <!--{{postResponses[ps]?.places }}-->
+    <!--{{postResponses[ps]?.image_urls }}-->
+    <!--{{postResponses[ps]?._id}}-->
+</ol>
+<!--</pre>-->
 
 <div class="container ">
 
@@ -55,47 +63,44 @@
 
     <br>
 
+
+    <!--<div *ngFor="let nl of noOfList">-->
+
     <div class="row">
-        <div class="col-md-6">
-            <div class="card mw-50 text-center">
-                <img class="card-img-top"
-                     src="http://gidbn.sites.caxton.co.za/wp-content/uploads/sites/96/2017/10/grow-money-interest-rates-low.jpg"
-                     alt="Card image cap">
+
+        <!--<div *ngFor="let ps of list1">-->
+
+        <div *ngFor="let ps of list" class="col-md-6">
+            <div *ngIf="postResponses[ps]">
+            <div class="card text-center">
+                <img class="card-img-top" src="{{postResponses[ps]?.image_urls }}" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-primary btn-lg active">Donate now</a>
-
-
+                    <p><a href="#" class="text-dark">
+                    <h5 class="card-title">{{postResponses[ps]?.title }}</h5>
+                    </a></p>
+                    <p class="card-text text-muted">{{postResponses[ps]?.description}}</p>
+                    <a class="text-muted">Raised of</a> <strong> {{postResponses[ps]?.target_amount?.currency}} {{postResponses[ps]?.target_amount?.amount}} </strong>
+                    <!--<div class="text-center">-->
+                        <!--<a href="#" class="btn btn-primary btn-lg active">Donate now</a>-->
+                        <!--</div>-->
+                        <p class="card-text">
+                            <small class="text-muted">{{postResponses[ps]?.campaign_location?.places}} {{postResponses[ps]?.campaign_location?.country}}</small>
+                                <br>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </p>
                     </div>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card  text-center text-center">
-                <img class="card-img-top" src="https://d2g8igdw686xgo.cloudfront.net/20106508_14938288050_r.jpg"
-                     alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <div class="text-center">
-                        <a href="#" class="btn btn-primary btn-lg active">Donate now</a>
 
-
-                    </div>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                </div>
+            <div *ngIf=" ps%2 < 1">
+                 <br>
+             </div>
             </div>
-        </div>
     </div>
+        </div>
+
+    <br>
+
+    <!--</div>-->
 
 
 </div>

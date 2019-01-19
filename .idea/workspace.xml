@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0072ce-ecc7-4bff-b744-63aaa4ec4a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542.pid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/DECISION_TAB.LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/LATEST.LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/cluster_nodes.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/0.rdq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/0.rdq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/nodes_running_at_shutdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_durable_exchange.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_durable_exchange.DCL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_durable_queue.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_durable_route.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_runtime_parameters.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_runtime_parameters.DCL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_serial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_topic_permission.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_user.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_user.DCL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_user_permission.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_user_permission.DCL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_vhost.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/rabbit_vhost.DCL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/schema.DAT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/schema_version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/clean.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/file_summary.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/msg_store_index.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/clean.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/file_summary.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/msg_store_index.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/home/home.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/config/generated/vm.2019.01.17.04.12.36.args" beforeDir="false" afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/config/generated/vm.2019.01.18.06.15.30.args" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/LATEST.LOG" beforeDir="false" afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@8ccfc2f561d8/LATEST.LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/config/generated/vm.2019.01.18.06.15.30.args" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/LATEST.LOG" beforeDir="false" afterPath="$PROJECT_DIR$/backend-2.0/backend-build/rabbitmq/lib/mnesia/rabbit@60d8c177f542/LATEST.LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/home/home.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/home/home.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/home/home.service.ts" afterDir="false" />
@@ -51,12 +19,13 @@
     <session id="-54875164">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -66,13 +35,13 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="20" />
-          <entry key="TsLintLanguageService" value="19" />
+          <entry key="Angular2LanguageService" value="21" />
+          <entry key="TsLintLanguageService" value="20" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -105,11 +74,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1956" />
+          <entry key="HTML" value="2376" />
           <entry key="JSON" value="28" />
           <entry key="JavaScript" value="12" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="TypeScript" value="2791" />
+          <entry key="TypeScript" value="2877" />
           <entry key="TypeScript JSX" value="2" />
         </counts>
       </usages-collector>
@@ -120,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="765">
               <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -132,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="210">
               <caret line="17" column="12" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -141,20 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="79" column="55" lean-forward="true" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/loginOLD/login.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="356">
+              <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -162,11 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -174,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="-4">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -183,7 +140,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -195,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="210">
               <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -292,10 +249,10 @@
         <option value="$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.component.html" />
-        <option value="$PROJECT_DIR$/frontend/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/home/home.service.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/home/home.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/home/home.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -801,7 +758,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="800" />
+    <option name="width" value="1348" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -818,6 +775,11 @@
             <path>
               <item name="online-crowd-funding-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-crowd-funding-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-crowd-funding-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-crowd-funding-application" type="462c0819:PsiDirectoryNode" />
+              <item name="backend-2.0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="online-crowd-funding-application" type="b2602c69:ProjectViewProjectNode" />
@@ -963,7 +925,8 @@
       <workItem from="1547606006359" duration="15897000" />
       <workItem from="1547643402596" duration="1300000" />
       <workItem from="1547695556970" duration="32262000" />
-      <workItem from="1547791932278" duration="17871000" />
+      <workItem from="1547791932278" duration="17971000" />
+      <workItem from="1547865124257" duration="10699000" />
     </task>
     <task id="LOCAL-00001" summary="front end integrated">
       <created>1542386625785</created>
@@ -983,7 +946,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149848000" />
+    <option name="totallyTimeSpent" value="160647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -996,9 +959,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1011,9 +973,9 @@
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.4980695" weight="0.32880434" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="10" sideWeight="0.495625" weight="0.1831357" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.55625" visible="true" weight="0.24637681" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44375" side_tool="true" weight="0.24637681" />
+      <window_info anchor="bottom" id="TypeScript" order="10" sideWeight="0.495" weight="0.1831357" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.555" visible="true" weight="0.24505928" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.445" side_tool="true" weight="0.24505928" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1162,10 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <element signature="e#179#223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,9 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,9 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1292,16 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/angular.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1309,21 +1251,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.service.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <element signature="e#179#240#0" expanded="true" />
-            <element signature="n#!!block;n#handleError#0;n#SignupService#0" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
+        <state relative-caret-position="765">
           <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -1331,33 +1268,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.service.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/admin/admin-dashboard/admin-dashboard.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <element signature="n#!!block;n#handleError#0;n#AdminDashboardService#0" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/signup/signup.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="210">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#179#240#0" expanded="true" />
+            <element signature="n#!!block;n#handleError#0;n#SignupService#0" />
           </folding>
         </state>
       </provider>
@@ -1369,10 +1297,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="79" column="55" lean-forward="true" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+        <state relative-caret-position="-4">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1380,6 +1311,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
         </state>
       </provider>
     </entry>

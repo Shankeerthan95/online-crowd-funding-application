@@ -37,7 +37,7 @@ export class HomeService {
 
   constructor(private http: HttpClient) { }
 
-    url = 'api/v1/post/posts?page=0&limit=3';
+    url = 'api/v1/post/posts?page=0&limit=4';
 
     getConfigResponse(): Observable<HttpResponse<Home[]>> {
         return this.http.get<Home[]>(

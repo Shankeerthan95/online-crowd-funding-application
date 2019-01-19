@@ -1,6 +1,13 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Pipe} from '@angular/core';
 import {HomeService,PostResponses} from './home.service';
 import {Home} from './home';
+
+@Pipe({ name: 'derp' })
+export class DerpPipe {
+    transform (value, args) {
+        return Array.from(value);
+    }
+}
 
 @Component({
     selector: 'app-home',
@@ -9,9 +16,16 @@ import {Home} from './home';
 })
 export class HomeComponent implements OnInit {
     private headers: string[];
+    public dummy: Home;
     public postResponses: Home[] = [];
     public test: string;
-    public dummy: Home;
+    public list: number[] = [0,1,2,3];
+    public list1: number[] = [0,1];
+    public list2: number[] = [2,3];
+    public noOfList: number[] = [0,1];
+
+
+
 
     constructor(private homeService: HomeService) {
     }
@@ -29,10 +43,12 @@ export class HomeComponent implements OnInit {
 
                 // access the body directly, which is typed as `Config`.
                 this.postResponses = { ... resp.body };
+
+
                 this.test = this.postResponses[0].title;
                 this.dummy = this.postResponses[0];
 
-                console.log(this.postResponses[0].title);
+                console.log(this.postResponses[0]);
                 console.log(this.postResponses);
 
                 // console.log(this.headers);
