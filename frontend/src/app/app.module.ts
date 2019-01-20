@@ -20,6 +20,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 // import {AdminModule} from './admin/admin.module';
 import { AuthModule } from './auth/auth.module';
+import { PostDetailsComponent } from './home/post-details/post-details.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { AuthModule } from './auth/auth.module';
         // LoginComponent,
         HomeComponent,
         SignupComponent,
-        PageNotFoundComponent
+        PageNotFoundComponent,
+        PostDetailsComponent
     ],
     imports: [
         BrowserModule,

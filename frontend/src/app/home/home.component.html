@@ -75,7 +75,7 @@
             <div class="card text-center">
                 <img class="card-img-top" src="{{postResponses[ps]?.image_urls }}" alt="Card image cap">
                 <div class="card-body">
-                    <p><a href="#" class="text-dark">
+                    <p><a [routerLink]="['/home', postResponses[ps]._id]" class="text-dark">
                     <h5 class="card-title">{{postResponses[ps]?.title }}</h5>
                     </a></p>
                     <p class="card-text text-muted">{{postResponses[ps]?.description}}</p>

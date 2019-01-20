@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpErrorResponse, HttpResponse} from '@angular/common/http';
 import {Observable, Subscription, throwError} from 'rxjs';
-import {catchError} from 'rxjs/operators';
+import {catchError, map} from 'rxjs/operators';
 import {Home} from './home';
 
 export interface TargetAmount {
@@ -35,7 +35,7 @@ export interface NewPost {
 })
 export class HomeService {
 
-  constructor(private http: HttpClient) { }
+  constructor(protected http: HttpClient) { }
 
     url = 'api/v1/post/posts?page=0&limit=4';
 
@@ -52,7 +52,7 @@ export class HomeService {
     }
 
 
-    private handleError(error: HttpErrorResponse) {
+    protected handleError(error: HttpErrorResponse) {
         if (error.error instanceof ErrorEvent) {
             // A client-side or network error occurred. Handle it accordingly.
             console.error('An error occurred:', error.error.message);
@@ -67,6 +67,14 @@ export class HomeService {
         return throwError(
             'Something bad happened; please try again later.');
     }
+
+    //
+    // getHero(id: number | string) {
+    //     return this.getHeroes().pipe(
+    //         // (+) before `id` turns the string into a number
+    //         map((heroes: Hero[]) => heroes.find(hero => hero.id === +id))
+    //     );
+    // }
 
 
 }
