@@ -1,4 +1,4 @@
-# Online-Crowd funding application (backend-micro services)
+# Online-Crowd funding application (Experimental and Learning of Micro Services)
 
 It's a simple web application , the backend is designed as micro services.
 
