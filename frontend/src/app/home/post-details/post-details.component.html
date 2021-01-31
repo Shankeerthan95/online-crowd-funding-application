@@ -1,0 +1,121 @@
+<!--<pre>-->
+  <!--{{postDetails?._id}}-->
+    <!--{{postDetails?.user_id}}-->
+    <!--{{postDetails?.title}}-->
+    <!--{{postDetails?.by}}-->
+    <!--{{postDetails?.story}}-->
+    <!--{{postDetails?.description}}-->
+    <!--{{postDetails?.timestamp}}-->
+    <!--{{postDetails?.target_amount?.currency}}-->
+    <!--{{postDetails?.campaign_location?.places}}-->
+    <!--{{postDetails?.campaign_period?.end}}-->
+    <!--{{postDetails?.image_urls}}-->
+
+<!--</pre>-->
+
+<!--<div class="container">-->
+
+
+
+    <!--<div class="col-sm-8">-->
+        <!--<img src="{{postDetails?.image_urls}}" class="img-fluid" alt="Responsive image">-->
+    <!--</div>-->
+
+    <!--<div class="col-sm-4">-->
+
+      <!--<div class="card text-center">-->
+        <!--<img class="card-img-top" src="{{postDetails?.image_urls}}" alt="Card image cap">-->
+        <!--<div class="card-body">-->
+          <!--<p><a [routerLink]="['/home', postDetails?.user_id]" class="text-dark">-->
+            <!--<h5 class="card-title">{{postDetails?.title }}</h5>-->
+          <!--</a></p>-->
+          <!--<p class="card-text text-muted">{{postDetails?.description}}</p>-->
+          <!--<a class="text-muted">Raised of</a> <strong> {{postDetails?.target_amount?.currency}} {{postDetails?.target_amount?.amount}} </strong>-->
+          <!--<div class="text-center">-->
+          <!--<a href="{{postDetails?.donatation_button}}" class="btn btn-primary btn-lg active">Donate now</a>-->
+          <!--</div>-->
+          <!--<p class="card-text">-->
+            <!--<small class="text-muted">{{postDetails?.campaign_location?.places}} {{postDetails?.campaign_location?.country}}</small>-->
+            <!--<br>-->
+            <!--<small class="text-muted">Last updated 3 mins ago</small>-->
+          <!--</p>-->
+        <!--</div>-->
+      <!--</div>-->
+<!--</div>-->
+
+
+
+<!--</div>-->
+<br>
+<div class="container">
+    <h1 class="font-weight-bold display-5 text-center">{{postDetails?.title}}</h1>
+    <p class="text-muted text-center"> by : {{postDetails?.by}}</p>
+    <!--<div class="row justify-content-md-center">-->
+        <!--<div class="col col-lg-2">-->
+            <!--1 of 3-->
+        <!--</div>-->
+        <!--<div class="col-md-auto">-->
+            <!--Variable width content-->
+        <!--</div>-->
+        <!--<div class="col col-lg-2">-->
+            <!--3 of 3-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="row">
+        <div class="col">
+            <img src="{{postDetails?.image_urls}}" class="img-fluid" alt="Responsive image"><br>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">{{postDetails?.story}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-auto">
+        </div>
+        <div class="col col-lg-4">
+            <div class="card text-center">
+            <!--<img class="card-img-top" src="{{postDetails?.image_urls}}" alt="Card image cap">-->
+            <div class="card-body">
+
+            <!--<h2 class="font-weight-bold">{{postDetails?.title }}</h2>-->
+
+            <p class="card-text text-muted">{{postDetails?.description}}</p>
+            <a class="text-muted">Raised of</a> <strong> {{postDetails?.target_amount?.currency}} {{postDetails?.target_amount?.amount}} </strong>
+            <div class="text-center">
+            <a href="{{postDetails?.donatation_button}}" class="btn btn-primary btn-lg active">Donate Now</a>
+            </div>
+            <p class="card-text">
+            <small class="text-muted">{{postDetails?.campaign_location?.places}} {{postDetails?.campaign_location?.country}}</small>
+            <br>
+            <small class="text-muted">This campaign started at {{postDetails?.campaign_period?.start}} and will end at {{postDetails?.campaign_period?.end}}</small>
+            </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .footer {
+
+        left: 0;
+        bottom: 0;
+
+
+        color: white;
+        text-align: center;
+        margin: auto;
+        font-size: 12px;
+    }
+</style>
+
+<div class="footer bg-dark navbar-dark">
+
+    © 2019 |   &nbsp;
+    <a class="text-info" >About</a>
+    | &nbsp;
+    <a class="text-info" >Terms</a> | &nbsp;
+    <a class="text-info" >Privacy</a> | &nbsp;
+    <a class="text-info">Contact</a>
+
+</div>

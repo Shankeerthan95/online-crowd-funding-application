@@ -1,0 +1,75 @@
+
+<div class="alert alert-info" role="alert">
+  {{message}}
+</div>
+
+<div class="container col-md-5 col-md-offset-5">
+    <div class="alert alert-primary" role="alert">
+  <h4 class="text-center"><strong > Sign up </strong> </h4>
+    </div>
+  <form [formGroup]="signUpForm" >
+
+    <div formGroupName="user">
+
+      <div formGroupName="person">
+        <div class="form-group">
+          <strong>First Name</strong>
+          <input type="text" class="form-control" formControlName="firstName" >
+        </div>
+        <div class="form-group">
+          <strong>Last Name</strong>
+          <input type="text" class="form-control" formControlName="lastName" >
+        </div>
+      </div>
+
+      <div formGroupName="address">
+        <div class="form-group">
+          <strong>Address</strong>
+          <input type="text" class="form-control" formControlName="street" placeholder="Street" >
+          <input type="text" class="form-control" formControlName="cityOrTown" placeholder="City or Town" >
+          <input type="text" class="form-control" formControlName="district" placeholder="District" >
+          <input type="text" class="form-control" formControlName="stateOrProvince" placeholder="State or province" >
+          <input type="text" class="form-control" formControlName="country" placeholder="Country" >
+          <input type="text" class="form-control" formControlName="postalCode" placeholder="Postal Code" >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <strong>User Name</strong>
+        <input type="text" class="form-control" formControlName="user_name" >
+      </div>
+
+      <div class="form-group">
+        <strong>Password</strong>
+        <input type="password" class="form-control" formControlName="password" >
+      </div>
+
+      <div class="form-group">
+        <strong>Email</strong>
+        <input type="text" class="form-control" formControlName="email" >
+      </div>
+
+      <div class="form-group">
+        <strong>Telephone</strong>
+        <input type="number" class="form-control" formControlName="mobile_num" >
+      </div>
+
+      <div class="form-group">
+        <strong>Country</strong>
+        <input type="text" class="form-control" formControlName="country" >
+      </div>
+
+
+
+    </div>
+
+      <button (click)="onSubmit()" type="button" class="btn btn-success btn-lg btn-block" >Sign up</button>
+
+  </form>
+</div>
+
+<!--{{ signUpForm.value | json }}-->
+
+
+
+<router-outlet></router-outlet>
